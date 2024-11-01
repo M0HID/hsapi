@@ -24,6 +24,6 @@ Returns a JSON object of all the items in the shop, including prices, regions, a
 
 ## Usage
 To run the api, just run the following command:
-```uvicorn api:app --reload```
+```python3 api.py```
 
 You can now access the API at `localhost:8000/hsapi`
