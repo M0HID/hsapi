@@ -46,3 +46,8 @@ async def execute_command():
         raise HTTPException(status_code=500, detail=f"Error executing curl command: {e}")
     except json.JSONDecodeError:
         raise HTTPException(status_code=500, detail="Failed to decode JSON from response.")
+
+
+if __name__ == '__main__':
+    import uvicorn
+    uvicorn.run(app)
