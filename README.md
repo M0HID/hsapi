@@ -1,6 +1,6 @@
 # High-Seas (unofficial) API
 
-Returns a JSON object of all the items in the shop, including prices, regions, and stock. Try it out [here](https://m0hid--hsapi-fastapi-app.modal.run/hsapi?next_action=24c833d8076ace77d8754d64382e8f126f9b3564)!
+Returns a JSON object of all the items in the shop, including prices, regions, and stock. Try it out [here](https://m0hid--hsapi-fastapi-app.modal.run/hsapi?next_action=24c833d8076ace77d8754d64382e8f126f9b3564)! (As seen in #high-seas-monitor!!)
 
 ## Dependencies
 - FastAPI
